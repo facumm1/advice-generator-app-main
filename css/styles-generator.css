@@ -75,6 +75,10 @@ html{
     margin-top: 1.5rem;
 }
 
+.pattern-d{
+    display: none;
+}
+
 .btn-advice{
     background-color: var(--neon-green);
     border-radius: 50%;
@@ -91,6 +95,39 @@ html{
 .btn-advice:hover{
     box-shadow: 0 0 2.5rem hsl(150, 100%, 66%);
 }
+
+/* Diseño desktop 1440px */
+
+@media screen and (min-width: 850px){
+    .card{
+        padding: 2.95rem 0 4.5rem 0;
+        position: relative;
+        width: 37.5%;
+    }
+
+    .title{
+        font-size: .9rem;
+    }
+
+    .txt-advice{
+        font-size: 1.7rem;
+        line-height: 38px;
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1245px) {
+    .pattern-m{
+        display: none;
+    }
+
+    .pattern-d{
+        display: flex;
+        margin-top: 2.45rem;
+    }  
+}
+
+
 
 /* Animaciones */
 
