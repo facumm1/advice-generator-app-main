@@ -1,4 +1,4 @@
-"strict mode";
+'use strict';
 
 const btnAdvice = document.querySelector('.btn-advice');
 const txtAdvice = document.querySelector('.txt-advice');
