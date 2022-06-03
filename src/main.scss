@@ -1,0 +1,30 @@
+@import 'variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Raiz */
+html {
+  background-color: $dark-blue;
+  color: #fff;
+  font-size: 16px;
+}
+
+body{
+    .container {
+      align-items: center;
+      background-color: $dark-blue;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      width: 100vw;
+    }
+}
+
+@import 'card';
+@import 'media-queries';
+@import 'keyframes';
+

@@ -1,0 +1,33 @@
+/* Diseño laptop (1440px) */
+
+@media screen and (min-width: 850px) {
+  .card {
+    border-radius: 1rem;
+    padding: 2.95rem 0 4.5rem 0;
+    position: relative;
+    width: 37.5%;
+
+    .title {
+      font-size: 0.9rem;
+    }
+
+    .txt-advice {
+      font-size: 1.7rem;
+      line-height: 38px;
+      padding: 0 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1245px) {
+  .card {
+    .pattern-m {
+      display: none;
+    }
+
+    .pattern-d {
+      display: flex;
+      margin-top: 2.45rem;
+    }
+  }
+}
